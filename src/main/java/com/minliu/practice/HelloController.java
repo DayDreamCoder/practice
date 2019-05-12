@@ -25,4 +25,11 @@ public class HelloController {
         map.put("info", "Hi");
         return map;
     }
+
+    @GetMapping("hehe")
+    public Map<String,String> sayHehe(){
+        Map<String, String> map = new HashMap<>();
+        map.put("info", "Hehe");
+        return map;
+    }
 }
