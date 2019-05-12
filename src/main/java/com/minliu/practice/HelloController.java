@@ -19,8 +19,6 @@ public class HelloController {
     }
 
 
-
-
     @GetMapping("hi")
     public Map<String,String> sayHi(){
         Map<String, String> map = new HashMap<>();
