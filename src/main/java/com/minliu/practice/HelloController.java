@@ -15,7 +15,6 @@ public class HelloController {
         Map<String, String> map = new HashMap<>();
         map.put("info", "Hello");
         return map;
-
     }
 
     @GetMapping("hi")
